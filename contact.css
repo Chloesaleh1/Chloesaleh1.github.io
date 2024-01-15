@@ -25,6 +25,10 @@ body {
     border-radius: 20px;
     backdrop-filter: blur(55px);
     display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     justify-content: center;
     align-items: center;
     padding: 2rem 3rem;
