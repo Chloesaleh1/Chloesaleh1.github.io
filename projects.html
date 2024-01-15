@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Chloe Saleh - Portfolio Website - Projects Page</title>
+  <link rel="stylesheet" href="projects.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+            <header>
+                <a class="logo">CHLOE SALEH</a>
+                <ul>
+                    <li><a href="index.html" >About</a></li>
+                    <li><a class="active">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </header>
+    </div>
+
+    <!-- slider -->
+
+    <div class="slider">
+        <!-- list Items -->
+        <div class="list">
+            <div class="item active">
+                <img src="./Images/Wallpaper.jpeg">
+                <div class="content">
+                    <p>Bitcoin Price Prediction</p>
+                    <h2>Project 01</h2>
+                      <li>Developed predictive models (ridge regression, lasso regression, random forest regression, decision tree regression) to forecast Bitcoin prices based on macroeconomic factors.</li>
+                      <li>DBSCAN clustering algorithm to identify and remove anomalous data points.</li>
+                      <li>Performed data cleaning and preprocessing on six economic datasets, aligning over 8,000 data points.</li>
+                      <li>PCA analysis on the dataset resulting in a reduction of features by 25% without compromising model accuracy.</li> <br>
+                      Project Report: <a href="https://wifi12345678910.github.io/CS4641Project/" target="_blank" style="color: white;">View Report</a>
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./Images/Project2.jpg">
+                <div class="content">
+                    <p>OPTIMIZING WAREHOUSE OPERATIONS FOR DELTA TECHOPS</p>
+                    <h2>Project 02</h2>
+                    <p>
+                        <li>Developed a Tableau dashboard, integrated with the client’s SAP database, to track 500+ daily incoming parts improving decision-making efficiency by 40% through real-time insights into part types, quantities, and delivery schedules.</li>
+                        <li>Directed data preprocessing and manipulation across 1TB of warehouse operational data to reveal critical operational bottlenecks.</li>
+                        <li>Developed a simulation model to determine optimal worker allocation across all processing lines leading to a 25% increase in efficiency.</li>
+                        <li>Overall, these deliverables resulted in an annual saving of approximately $450,000 for Delta TechOps.</li>
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./Images/Project3.jpg">
+                <div class="content">
+                    <p>CREDIT SCORING MODEL FOR SMALL BUSINESS LOAN APPROVAL</p>
+                    <h2>Project 03</h2>
+                    <p>
+                        <li>Developed a logistic regression model in R to predict loan default probability among small businesses.</li>
+                        <li>Conducted data cleaning, handling missing fields and null values on over 50,000 data points.</li>
+                        <li>Performed EDA using a correlation matrix and scatter plots, revealing correlations between key predictors.</li>
+                        <li>Experimented with various link functions, and variable transformations to find the most effective model.</li>
+                        <li>Applied k-fold cross-validation methods to ensure model robustness and reliability.</li> <br>
+                        Project Report: <a href="https://drive.google.com/file/d/1Pp2u7muQ-Q-bTiEGCCyK9BUzVQzTg91g/view" target="_blank" style="color: white;">View Report</a>
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./Images/Project4.jpg">
+                <div class="content">
+                    <p>PREDICTING REGIONAL SONG POPULARITY WITH SPOTIFY API</p>
+                    <h2>Project 04</h2>
+                    <p>
+                        <li>Developed a Random Forest model to predict song popularity by region, analyzing over 220,000 songs using data from the Spotify API.</li>
+                        <li>Employed D3 to create an interactive world map visualization, enabling dynamic visualization of song popularity trends across different global regions.</li>
+                        <li>Conducted A/B testing to optimize data visualization, choosing a Cleveland dot plot for its clarity </li>
+                        <li>Implemented a data processing pipeline, involving data cleaning, NaN value handling, and feature encoding using OneHotEncoder to prepare the dataset.</li> <br>
+                        Project GitHub: <a href="https://github.com/Chloesaleh1/Regional-Song-Popularity-Prediction" target="_blank" style="color: white;">View GitHub</a>
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./Images/Project5.jpg">
+                <div class="content">
+                    <p>TEXT-TO-SPEECH SYNTHESIS WITH NEURAL NETWORK FUSION</p>
+                    <h2>Project 05</h2>
+                    <p>
+                        <li>Developed an advanced text-to-speech synthesis model by combining key elements of two existing neural network architectures to enhance speech clarity and naturalness.</li>
+                        <li>Employed the LJSpeech dataset for model training and testing, consisting of 13,100 short audio clips from a single-speaker.</li>
+                        <li>Conducted rigorous performance evaluation using Mel Cepstral Distortion (MCD) metric, achieving an average MCD of 4.9777.</li> <br>
+                        Project Report: <a href="https://drive.google.com/file/d/19F_sBkWzRsnaeXnUvTtZAXfUDE2hMIar/view" target="_blank" style="color: white;">View Report</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- button arrows -->
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <!-- thumbnail -->
+        <div class="thumbnail">
+            <div class="item active">
+                <img src="./Images/Bitcoin.png">
+                <div class="content">
+                </div>
+            </div>
+            <div class="item">
+                <img src="./Images/Warehouse.png">
+                <div class="content">
+                </div>
+            </div>
+            <div class="item">
+                <img src="./Images/Loan.png">
+                <div class="content">
+                </div>
+            </div>
+            <div class="item">
+                <img src="./Images/Music.png">
+                <div class="content">
+                </div>
+            </div>
+            <div class="item">
+                <img src="./Images/Vocoder.png">
+                <div class="content">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
